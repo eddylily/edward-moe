@@ -1,6 +1,24 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+@media (max-width: 767px) {
+    .content {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 16px;
+        line-height: 1.25em;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 16px;
+        line-height: 1.25em;
+    }
+}
+
 @media (prefers-color-scheme: light) {
     body {
         margin: 0;
@@ -95,13 +113,6 @@ header {
     transform: translate( -50%, -50%);
     color: white;
   }
-
-.content {
-    width: 50%;
-    margin: 0 auto;
-    padding-bottom: 16px;
-    line-height: 1.25em;
-}
 
 .profilepic {
     text-align: center;

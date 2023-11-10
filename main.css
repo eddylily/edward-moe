@@ -19,74 +19,39 @@
     }
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        margin: 0;
-        background-color: white;
-        font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
-    }
-
-    div {
-        color: #424242;
-    }
-
-    .condate {
-        font-size: 13px; 
-        color: #757575;
-    }
-
-    a:link {
-        color: #424242;
-    }
-    
-    a:visited {
-        color: #424242;
-    }
-    
-    a:hover {
-        color: #9e9e9e;
-    }
-    
-    a:active {
-        color: #9e9e9e;
-    }
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        margin: 0;
-        background-color: black;
-        font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
-    }
+.icons {
+    filter: invert(100%);
+}
 
-    .icons {
-        filter: invert(100%);
-    }
+div {
+    color: white;
+}
 
-    div {
-        color: white;
-    }
+.condate {
+    font-size: 13px; 
+    color: #bdbdbd;
+}
 
-    .condate {
-        font-size: 13px; 
-        color: #bdbdbd;
-    }
+a:link {
+    color: white;
+}
 
-    a:link {
-        color: white;
-    }
-    
-    a:visited {
-        color: white;
-    }
-    
-    a:hover {
-        color: #9e9e9e;
-    }
-    
-    a:active {
-        color: #9e9e9e;
-    }
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #9e9e9e;
+}
+
+a:active {
+    color: #9e9e9e;
 }
 
 header {

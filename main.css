@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+@media (prefers-color-scheme: light) {
+    body {
+        margin: 0;
+        background-color: white;
+        font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    }
+
+    div {
+        color: #424242;
+    }
+
+    .condate {
+        font-size: 13px; 
+        color: #757575;
+    }
+
+    a:link {
+        color: #424242;
+    }
+    
+    a:visited {
+        color: #424242;
+    }
+    
+    a:hover {
+        color: #9e9e9e;
+    }
+    
+    a:active {
+        color: #9e9e9e;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        margin: 0;
+        background-color: black;
+        font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    }
+
+    .icons {
+        filter: invert(100%);
+    }
+
+    div {
+        color: white;
+    }
+
+    .condate {
+        font-size: 13px; 
+        color: #bdbdbd;
+    }
+
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: #9e9e9e;
+    }
+    
+    a:active {
+        color: #9e9e9e;
+    }
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 256px;
+    overflow: hidden;
+}
+
+.headerImg {
+    position: absolute; 
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: white;
+  }
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    line-height: 1.25em;
+}
+
+.profilepic {
+    text-align: center;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 32px;
+}
+
+.profile {
+    border-collapse: collapse;
+    width: 224px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+  
+.profile tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.profile th {
+    padding: 2px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.profile td {
+    padding-left: 6px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 12px;
+    font-weight: 300;
+}

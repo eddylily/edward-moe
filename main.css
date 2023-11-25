@@ -8,6 +8,22 @@
         padding-bottom: 16px;
         line-height: 1.25em;
     }
+
+    header {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 192px;
+        overflow: hidden;
+    }
+
+    .headerText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -67%);
+        color: white;
+      }
 }
 
 @media (min-width: 768px) {
@@ -17,6 +33,22 @@
         padding-bottom: 16px;
         line-height: 1.25em;
     }
+
+    header {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 256px;
+        overflow: hidden;
+    }
+
+    .headerText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50%);
+        color: white;
+      }
 }
 
 body {
@@ -54,14 +86,6 @@ a:active {
     color: #9e9e9e;
 }
 
-header {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 256px;
-    overflow: hidden;
-}
-
 .headerImg {
     position: absolute; 
     text-align: center;
@@ -70,14 +94,6 @@ header {
     height: 100%;
     object-fit: cover;
 }
-
-.headerText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50%);
-    color: white;
-  }
 
 .profilepic {
     text-align: center;

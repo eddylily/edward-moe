@@ -7,16 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
     <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <script src="lang.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--
     <script>
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             document.documentElement.classList.add("dark");
         }
     </script>
+-->
 </head>
 <body>
 <header>
     <img class="headerImg" src="header.png">
-    <h1 class="headerText">飛び立つ。蝶々のように。</h1>
+    <h1 class="headerText" data-lang="hello">Fly Up. Just Like a Butterfly.</h1>
 </header>
 <div style="text-align: center">
     <div style="text-align: center; display: inline-block;">
@@ -25,7 +29,7 @@
     <div style="text-align: center; display: inline-block">
         <table class="profile">
             <tr>
-                <th colspan="2">✱Ed (エド)</th>
+                <th colspan="2" data-lang="myname">✱Ed</th>
             </tr>
             <tr>
                 <td style="padding-top: 6px"><img class="icons" src="mail_black.svg"></td>

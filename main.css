@@ -27,7 +27,7 @@
         left: 50%;
         transform: translate( -50%, -67%);
         color: #f2f2f2;
-        font-size: 24px;
+        font-size: 20px;
         letter-spacing: 4.5px;
         white-space: nowrap;
     }
@@ -45,8 +45,8 @@
         left: 50%;
         transform: translate( -47.75%, -187.5%);
         color: #f2f2f2;
-        font-size: 12px;
-        letter-spacing: 7.25px;
+        font-size: 10px;
+        letter-spacing: 8px;
         white-space: nowrap;
     }
 

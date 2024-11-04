@@ -28,7 +28,7 @@
         left: 50%;
         transform: translate( -50%, -67%);
         color: #f2f2f2;
-        font-size: 28px;
+        font-size: 24px;
         letter-spacing: 4.5px;
     }
 
@@ -45,8 +45,17 @@
         left: 50%;
         transform: translate( -47.75%, -187.5%);
         color: #f2f2f2;
-        font-size: 14px;
-        letter-spacing: 8px;
+        font-size: 12px;
+        letter-spacing: 7.25px;
+    }
+
+    .tegami {
+        font-family: 'sogang';
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        margin: 48px 0 64px 0;
+        color: #f2f2f2;
     }
 }
 
@@ -91,6 +100,15 @@
         color: #f2f2f2;
         font-size: 16px;
         letter-spacing: 16px;
+    }
+
+    .tegami {
+        font-family: 'sogang';
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        margin: 48px 0 64px 0;
+        color: #f2f2f2;
     }
 }
 
@@ -163,15 +181,6 @@ div {
     font-size: 28px;
     text-align: center;
     margin: 64px 0 48px 0;
-    color: #f2f2f2;
-}
-
-.tegami {
-    font-family: 'sogang';
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    margin: 48px 0 64px 0;
     color: #f2f2f2;
 }
 

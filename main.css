@@ -21,33 +21,6 @@
         overflow: hidden;
     }
 
-    .headerText {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate( -50%, -67%);
-        color: #f2f2f2;
-        font-size: 20px;
-        letter-spacing: 4.5px;
-    }
-
-    .headerGrad {
-        background: linear-gradient(to bottom, #04b2d9, white 62.88%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .headerSub {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate( -48%, -187.5%);
-        color: #f2f2f2;
-        font-size: 10px;
-        letter-spacing: 6.5px;
-    }
-
     .tegami {
         font-family: 'sogang';
         font-size: 11px;
@@ -72,35 +45,6 @@
         width: 100%;
         height: 256px;
         overflow: hidden;
-    }
-
-    .headerText {
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate( -50%, -50%);
-        color: #f2f2f2;
-        font-size: 36px;
-        letter-spacing: 11px;
-    }
-
-    .headerGrad {
-        background: linear-gradient(to bottom, #04b2d9, white 62.88%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .headerSub {
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate( -47.75%, -150%);
-        color: #f2f2f2;
-        font-size: 16px;
-        letter-spacing: 16px;
     }
 
     .tegami {
@@ -134,12 +78,42 @@ div {
 }
 
 .headerImg {
-    position: absolute; 
-    text-align: center;
-    bottom: 0;
+    background-image: url('header.png');
+    display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
+}
+
+.headerText {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: #f2f2f2;
+    font-size: 36px;
+    letter-spacing: 11px;
+}
+
+.headerGrad {
+    background: linear-gradient(to bottom, #04b2d9, white 62.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headerSub {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate( -47.75%, -150%);
+    color: #f2f2f2;
+    font-size: 16px;
+    letter-spacing: 16px;
 }
 
 .profilepic {

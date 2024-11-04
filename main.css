@@ -3,7 +3,6 @@
 @font-face {
     font-family: 'sogang';
     src: url('SOGANG_UNIVERSITY_for_windows.ttf') format('truetype');
-    src: url('SOGANG_UNIVERSITY_for_mac.otf') format('opentype');
 }
 
 @media (max-width: 767px) {

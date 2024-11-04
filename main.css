@@ -23,6 +23,7 @@
 
     .headerText {
         position: absolute;
+        width: 150%;
         top: 50%;
         left: 50%;
         transform: translate( -50%, -67%);
@@ -40,6 +41,7 @@
 
     .headerSub {
         position: absolute;
+        width: 150%;
         top: 50%;
         left: 50%;
         transform: translate( -47.75%, -187.5%);

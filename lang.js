@@ -6,15 +6,18 @@ $(document).ready(function() {
     var langs = {
         ko: {
             hello: '나비처럼 날아올라',
-            myname: '✱Ed (에드)'
+            myname: '✱Ed (에드)',
+            con1: '내용 준비 중입니다.'
         },
         jp: {
             hello: '飛び立つ。蝶々のように。',
-            myname: '✱Ed (エド)'
+            myname: '✱Ed (エド)',
+            con1: '内容の変更を行なっています。'
         },
         en: {
             hello: 'Fly Up. Just Like a Butterfly.',
-            myname: '✱Ed'
+            myname: '✱Ed',
+            con1: 'Now on progress.'
         }
     };
 

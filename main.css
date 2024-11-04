@@ -115,7 +115,7 @@ body {
     margin: 0;
     background-color: #2b2b2b;
     background-image: linear-gradient(black 20%, #2b2b2b);
-    font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans KR', 'Noto Sans JP', 'sogang', sans-serif;
 }
 
 .icons {

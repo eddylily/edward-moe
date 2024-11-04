@@ -79,9 +79,11 @@ div {
 
 .headerImg {
     background-image: url('header.png');
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
+    padding: 0;
     justify-content: center;
     align-items: center;
     object-fit: cover;
@@ -89,6 +91,7 @@ div {
 
 .headerText {
     position: absolute;
+    width: 200%;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -108,9 +111,10 @@ div {
 .headerSub {
     position: absolute;
     text-align: center;
+    width: 200%;
     top: 50%;
     left: 50%;
-    transform: translate( -47.75%, -150%);
+    transform: translate( -49.75%, -150%);
     color: #f2f2f2;
     font-size: 16px;
     letter-spacing: 16px;

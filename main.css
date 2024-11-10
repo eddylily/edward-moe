@@ -5,12 +5,35 @@
     src: url('SOGANG_UNIVERSITY_for_windows.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'maruburi';
+    src: url('MaruBuri-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'maruburi';
+    src: url('MaruBuri-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'maruburi';
+    src: url('MaruBuri-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+}
+
 @media (max-width: 767px) {
     .content {
         width: 90%;
         margin: 0 auto;
         padding-bottom: 16px;
         line-height: 1.25em;
+    }
+
+    li {
+        padding-bottom: 12px;
+        line-height: 16px !important;
     }
 
     header {
@@ -29,6 +52,26 @@
         margin: 48px 0 64px 0;
         color: #f2f2f2;
     }
+
+    .cvTitle {
+        font-family: 'maruburi';
+        font-weight: 700;
+        font-size: 18px;
+        text-align: left;
+        line-height: 12px;
+        margin-top: 64px;
+        color: #f2f2f2;
+    }
+    
+    .cvDesc {
+        font-family: 'maruburi';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 10px;
+        text-align: left;
+        margin: 24px 0 48px 0;
+        color: #f2f2f2;
+    }
 }
 
 @media (min-width: 768px) {
@@ -37,6 +80,11 @@
         margin: 0 auto;
         padding-bottom: 16px;
         line-height: 1.25em;
+    }
+
+    li {
+        padding-bottom: 12px;
+        line-height: 24px !important;
     }
 
     header {
@@ -55,17 +103,38 @@
         margin: 48px 0 64px 0;
         color: #f2f2f2;
     }
+
+    .cvTitle {
+        font-family: 'maruburi';
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 64px;
+        color: #f2f2f2;
+    }
+    
+    .cvDesc {
+        font-family: 'maruburi';
+        font-weight: 300;
+        font-size: 14px;
+        text-align: left;
+        line-height: 12px;
+        margin: 24px 0 48px 0;
+        color: #f2f2f2;
+    }
 }
 
 body {
     margin: 0;
     background-color: #2b2b2b;
     background-image: linear-gradient(black 20%, #2b2b2b);
-    font-family: 'Noto Sans KR', 'Noto Sans JP', 'sogang', sans-serif;
+    font-family: 'Noto Sans KR', 'Noto Sans JP', 'maruburi', 'sogang', sans-serif;
 }
 
-.icons {
-    filter: invert(100%);
+ul {
+    list-style-type: square;
+    list-style-image: url('ul.svg');
+    margin-left: -16px;
 }
 
 div {
@@ -114,7 +183,7 @@ div {
     width: 200%;
     top: 50%;
     left: 50%;
-    transform: translate( -49.75%, -150%);
+    transform: translate( -49.64%, -150%);
     color: #f2f2f2;
     font-size: 16px;
     letter-spacing: 16px;
@@ -130,8 +199,8 @@ div {
 
 .profile {
     border-collapse: collapse;
-    width: 224px;
-    margin-left: 16px;
+    width: 216px;
+    margin-left: 24px;
     margin-bottom: 32px;
 }
   
@@ -140,19 +209,28 @@ div {
 }
 
 .profile th {
+    font-family: 'maruburi';
+    font-weight: 700;
     padding: 2px;
     font-size: 24px;
     text-align: left;
 }
 
 .profile td {
-    padding-left: 6px;
+    font-family: 'maruburi';
+    font-weight: 300;
     font-size: 14px;
     text-align: left;
 }
 
+.strfont {
+    font-family: 'maruburi';
+    font-weight: 700;
+    font-size: 14px;
+}
+
 .spacing {
-    margin-top: 64px;
+    margin-top: 32px;
 }
 
 .tegamiTitle {
@@ -160,6 +238,12 @@ div {
     font-size: 28px;
     text-align: center;
     margin: 64px 0 48px 0;
+    color: #f2f2f2;
+}
+
+.cvBox {
+    margin: 0 auto;
+    width: 368px;
     color: #f2f2f2;
 }
 
@@ -172,6 +256,10 @@ div {
 
 .footmargin {
     margin-top: 64px;
+}
+
+a {
+    text-decoration-line: none;
 }
 
 a:link {
@@ -192,7 +280,7 @@ a:active {
 
 hr {
     background-color: #f2f2f2;
-    width: 50%;
+    width: 480px;
     text-align: center;
     padding: 0;
     border: none;
